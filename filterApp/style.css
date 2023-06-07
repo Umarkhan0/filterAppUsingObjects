@@ -1,0 +1,70 @@
+.coun {
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.pic {
+    background-color: aqua;
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.printCard {
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.printCard img {
+    border-radius: 6px 6px 0px 0px;
+    width: 240px;
+    height: auto;
+    display: flex;
+}
+
+.mainHead {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.dropdown {
+    margin-top: 4px;
+
+}
+
+.color-circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#select {
+    padding: 7px;
+    border: 2px #e12d2b solid;
+    outline: #e12d2b;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#input {
+    padding: 7px;
+    width: 15rem;
+    border: 2px #e12d2b solid;
+    outline: #e12d2b;
+    border-radius: 10px;
+    margin-top: 23px;
+}
+
+.btn-light {
+    margin-left: 10px;
+}
